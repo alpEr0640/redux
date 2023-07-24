@@ -1,7 +1,11 @@
+import CounterButtons from "./Components/CounterButtons";
+import CounterValue from "./Components/CounterValue";
+import './index.css'
 function App() {
   return (
     <div >
-   merhaba
+      <CounterValue />
+      <CounterButtons/>
     </div>
   );
 }
